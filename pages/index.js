@@ -1,10 +1,23 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Head>
+        <title>
+          SPARKS Coding Club
+        </title>
+        <meta
+          name="description"
+          content="Official Website for SPARKS Coding Club"
+        />
+      </Head>
+      <main>
+        <h1 className="text-4xl">
+          SPARKS Coding Club
+        </h1>
+      </main>
+    </>
   );
 }
