@@ -1,12 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 function Navbar() {
   return (
     <div>
       <header className="flex justify-between content-center bg-fixed bg-backgroundColor-main p-4">
-        <h1 className="text-3xl my-2 mx-4 text-primaryColor-100 font-semibold">
+        <h1 className="text-3xl my-2 mx-4 text-gray-800 font-semibold">
           S.P.A.R.K.S
         </h1>
 
@@ -18,7 +17,7 @@ function Navbar() {
           />
         </div> */}
 
-        <div className="text-xl my-2 text-primaryColor-100">
+        <div className="text-xl my-2 text-gray-700 ">
           <ul className="flex gap-6">
             <li>
               <Link href="/">Home</Link>
