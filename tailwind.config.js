@@ -10,6 +10,15 @@ module.exports = {
         primaryColor: {
           100: "#18A0FB",
         },
+        backgroundColor: {
+          main: "#FAFAFA",
+        },
+      },
+      fontFamily: {
+        primaryFont: [
+          "Montserrat",
+          "Nunito",
+        ],
       },
     },
   },

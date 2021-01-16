@@ -1,41 +1,50 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   return (
     <div>
-      <header className="flex justify-between content-center bg-fixed bg-gray-200 p-4">
+      <header className="flex justify-between content-center bg-fixed bg-backgroundColor-main p-4">
         <h1 className="text-3xl my-2 mx-4 text-primaryColor-100 font-semibold">
           S.P.A.R.K.S
         </h1>
 
-        <div className="text-2xl my-2 text-primaryColor-100">
-          <ul className="flex">
+        {/* <div>
+          <Image
+            src="/assets/images/SPARKS_original.svg"
+            width="150"
+            height="150"
+          />
+        </div> */}
+
+        <div className="text-xl my-2 text-primaryColor-100">
+          <ul className="flex gap-6">
             <li>
               <Link href="/">Home</Link>
             </li>
-            {/* <li className="ml-4">
+            {/* <li c>
               <Link href="/">Blog</Link>
             </li> */}
-            <li className="ml-4">
+            <li c>
               {" "}
               <Link href="/">
                 Domains
               </Link>
             </li>
-            <li className="ml-4">
+            <li c>
               {" "}
               <Link href="/">
                 Events
               </Link>
             </li>
-            <li className="ml-4">
+            <li c>
               {" "}
               <Link href="/">
                 Project Expo
               </Link>
             </li>
-            <li className="ml-4 mr-4">
+            <li className="mr-4">
               {" "}
               <Link href="/">
                 Contact
