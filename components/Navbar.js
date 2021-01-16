@@ -21,33 +21,39 @@ function Navbar() {
           <ul className="flex gap-6">
             <li>
               <Link href="/">Home</Link>
+              <hr className="border-t-4 border-blue-400" />
             </li>
             {/* <li c>
               <Link href="/">Blog</Link>
+              <hr className="border-t-4 border-blue-300" />
             </li> */}
             <li c>
               {" "}
-              <Link href="/">
+              <Link href="/domains">
                 Domains
               </Link>
+              <hr className="border-t-4 border-blue-300 border-none" />
             </li>
             <li c>
               {" "}
-              <Link href="/">
+              <Link href="/events">
                 Events
               </Link>
+              <hr className="border-t-4 border-blue-300 border-none" />
             </li>
             <li c>
               {" "}
-              <Link href="/">
+              <Link href="/projects">
                 Project Expo
               </Link>
+              <hr className="border-t-4 border-blue-300 border-none" />
             </li>
             <li className="mr-4">
               {" "}
-              <Link href="/">
+              <Link href="/contact">
                 Contact
               </Link>
+              <hr className="border-t-4 border-blue-300 border-none" />
             </li>
           </ul>
         </div>
