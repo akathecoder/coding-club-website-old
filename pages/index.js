@@ -2,6 +2,8 @@ import Head from "next/head";
 import "../styles/Home.module.css";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import HomeDomains from "../components/HomeDomains";
+import HomeDomain from "../components/HomeDomain";
 
 export default function Home() {
   return (
@@ -16,8 +18,9 @@ export default function Home() {
         />
       </Head>
 
-      <main>
+      <main className="bg-backgroundColor-main">
         <Hero />
+        <HomeDomains />
       </main>
     </Layout>
   );
