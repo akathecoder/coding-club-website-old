@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "../styles/Home.module.css";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           content="Official Website for SPARKS Coding Club"
         />
       </Head>
+      <Navbar />
       <main>
         <h1 className="text-4xl">
           SPARKS Coding Club
