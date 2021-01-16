@@ -5,7 +5,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <footer className="bg-backgroundColor-main absolute inset-x-0 bottom-0 p-4 ">
-      <div className="flex grid grid-cols-2">
+      <div className="grid grid-cols-2">
         {/* <h1>S.P.A.R.K.S</h1> */}
         <div>
           <Image
@@ -37,7 +37,7 @@ function Footer() {
             <h3>Inner Text</h3> */}
           </div>
 
-          <div>
+          {/* <div>
             <h1 className="text-xl font-medium mb-6">
               Projects
             </h1>
@@ -46,7 +46,7 @@ function Footer() {
             <h3>Project 3</h3>
             <h3>Project 4</h3>
             <h3>Project 5</h3>
-          </div>
+          </div> */}
 
           <div>
             <h1 className="text-xl font-medium mb-6">
