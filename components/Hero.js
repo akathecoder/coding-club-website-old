@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
-    <div className="py-40 bg-backgroundColor-main">
+    <div className="py-32 bg-backgroundColor-main">
       <div>
         <h1 className="flex justify-center text-center leading-loose text-6xl font-semibold">
           We are a community of <br />
@@ -13,7 +13,7 @@ function Hero() {
         </h1>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center my-14">
         <form action="">
           <label
             for="fname"
@@ -28,12 +28,12 @@ function Hero() {
             id="email"
             name="email"
             placeholder="Email"
-            className="placeholder placeholder-gray-500 p-4 rounded-full w-96 ml-2 my-2"
+            className="placeholder placeholder-gray-500 p-4 rounded-full w-96 ml-2 my-2 shadow-lg  "
           />
 
           <button
             type="submit"
-            className=" mx-6 px-5 py-4 bg-blue-400 rounded-full"
+            className=" mx-6 px-5 py-4 bg-blue-500 rounded-full my-2 shadow-xl "
           >
             <FontAwesomeIcon
               icon={faArrowRight}
