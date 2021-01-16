@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="bg-backgroundColor-main absolute inset-x-0 bottom-0 p-4 ">
+    <footer className="bg-backgroundColor-main p-4 ">
       <div className="grid grid-cols-2">
         {/* <h1>S.P.A.R.K.S</h1> */}
         <div>

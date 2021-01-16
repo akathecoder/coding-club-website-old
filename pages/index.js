@@ -1,8 +1,7 @@
 import Head from "next/head";
 import "../styles/Home.module.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -18,9 +17,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-4xl">
-          SPARKS Coding Club
-        </h1>
+        <Hero />
       </main>
     </Layout>
   );
