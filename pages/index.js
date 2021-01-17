@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import HomeDomains from "../components/HomeDomains";
 import HomeDomain from "../components/HomeDomain";
+import HomeEvents from "../components/HomeEvents";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <main className="bg-backgroundColor-main">
         <Hero />
         <HomeDomains />
+        <HomeEvents />
       </main>
     </Layout>
   );
