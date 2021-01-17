@@ -21,7 +21,7 @@ function HomeDomain({
           <a href={link}>
             <button
               type="submit"
-              className="  my-6 px-10 py-4 bg-blue-500 rounded-full  shadow-xl text-white font-semibold"
+              className="my-6 px-10 py-4 bg-blue-500 rounded-full  shadow-xl text-white font-semibold"
             >
               Visit
             </button>
@@ -71,7 +71,7 @@ function HomeDomain({
           <a href={link}>
             <button
               type="submit"
-              className=" mx-2 my-6 px-10 py-4 bg-blue-500 rounded-full  shadow-xl text-white font-semibold"
+              className="my-6 px-10 py-4 bg-blue-500 rounded-full  shadow-xl text-white font-semibold"
             >
               Visit
             </button>

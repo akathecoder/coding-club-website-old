@@ -9,9 +9,9 @@ function HomeDomains() {
       </div>
       <div className="">
         <HomeDomain
-          title="Web Development"
+          title="Android Development"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, qui corrupti officiis nam incidunt voluptatibus numquam recusandae vitae vero facilis?"
-          link="/domains/web-dev"
+          link="/domains/android-dev"
         />
         <HomeDomain
           title="Web Development"
@@ -20,14 +20,14 @@ function HomeDomains() {
           right
         />
         <HomeDomain
-          title="Web Development"
+          title="AI / ML"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, qui corrupti officiis nam incidunt voluptatibus numquam recusandae vitae vero facilis?"
-          link="/domains/web-dev"
+          link="/domains/ai-ml"
         />
         <HomeDomain
-          title="Web Development"
+          title="Big Data Analysis"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, qui corrupti officiis nam incidunt voluptatibus numquam recusandae vitae vero facilis?"
-          link="/domains/web-dev"
+          link="/domains/bda"
           right
         />
       </div>
