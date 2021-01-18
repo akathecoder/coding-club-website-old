@@ -1,10 +1,9 @@
 import Head from "next/head";
 import "../styles/Home.module.css";
 import Layout from "../components/Layout";
-import Hero from "../components/Hero";
-import HomeDomains from "../components/HomeDomains";
-import HomeDomain from "../components/HomeDomain";
-import HomeEvents from "../components/HomeEvents";
+import Hero from "../components/HomePage/Hero";
+import HomeDomains from "../components/HomePage/HomeDomains";
+import HomeEvents from "../components/HomePage/HomeEvents";
 
 export default function Home() {
   return (
