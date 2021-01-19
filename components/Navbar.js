@@ -1,23 +1,28 @@
 import React from "react";
 import Link from "next/link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 function Navbar() {
   return (
     <div>
-      <header className="flex justify-between content-center bg-fixed bg-backgroundColor-main p-4">
-        <h1 className="text-3xl my-2 mx-4 text-gray-800 font-semibold">
+      <header className="flex justify-between content-center bg-fixed bg-backgroundColor-main p-4  ">
+        <h1 className="lg:text-3xl text-xl my-2 mx-4 text-gray-800 font-semibold">
           S.P.A.R.K.S
         </h1>
 
-        {/* <div>
-          <Image
-            src="/assets/images/SPARKS_original.svg"
-            width="150"
-            height="150"
-          />
-        </div> */}
+        <button className="md:hidden">
+          <div>
+            <FontAwesomeIcon
+              icon={faBars}
+              size="lg"
+              color="black"
+            />
+          </div>
+        </button>
 
-        <div className="text-xl my-2 text-gray-700 ">
+        <div className="lg:text-xl my-2 text-gray-700 hidden md:block ">
           <ul className="flex gap-6">
             <li>
               <Link href="/">Home</Link>

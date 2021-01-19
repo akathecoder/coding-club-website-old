@@ -1,11 +1,10 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 function Footer() {
   return (
     <footer className="bg-backgroundColor-main p-4 ">
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1">
         {/* <h1>S.P.A.R.K.S</h1> */}
         <div>
           <Image
@@ -15,7 +14,7 @@ function Footer() {
           />
         </div>
 
-        <div className="flex  justify-end gap-16 mr-10 ">
+        <div className="lg:flex lg:justify-end gap-16 mr-10 justify-center grid md:grid-cols-2 sm:grid-cols-1">
           <div>
             <h1 className="text-xl font-medium mb-6">
               Domains
