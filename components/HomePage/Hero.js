@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  Link,
+  animateScroll as scroll,
+} from "react-scroll";
 
 function Hero() {
   return (
@@ -14,6 +18,24 @@ function Hero() {
       </div>
 
       <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-10 animate-bounce">
+        <Link
+          className=" mx-6 px-4 py-5 bg-primaryColor-blue rounded-full my-2 shadow-xl "
+          activeClass="active"
+          to="domains"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+        >
+          <FontAwesomeIcon
+            icon={faArrowDown}
+            size="lg"
+            color="white"
+          />
+        </Link>
+      </div>
+
+      {/* <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-10 animate-bounce">
         <a
           className=" mx-6 px-4 py-5 bg-primaryColor-blue rounded-full my-2 shadow-xl "
           href="/#domains"
@@ -24,7 +46,7 @@ function Hero() {
             color="white"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
