@@ -13,9 +13,9 @@ function Hero() {
         </h1>
       </div>
 
-      <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-10">
+      <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-10 animate-bounce">
         <a
-          className=" mx-6 px-5 py-4 bg-primaryColor-blue rounded-full my-2 shadow-xl "
+          className=" mx-6 px-4 py-5 bg-primaryColor-blue rounded-full my-2 shadow-xl "
           href="/#domains"
         >
           <FontAwesomeIcon
