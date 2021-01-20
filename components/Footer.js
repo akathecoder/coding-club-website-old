@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-backgroundColor-main p-4 text-gray-600 ">
       <hr className="m-4 border-gray-400  " />
-      <h1 className=" flex justify-center">
+      <h1 className="text-center">
         Made with ❤️ by&nbsp;
         <a
           href="https://github.com/akathecoder"
@@ -15,7 +15,7 @@ function Footer() {
         </a>
         &nbsp;&&nbsp;
         <a
-          href="https://github.com/akathecoder"
+          href="https://github.com/rg12301"
           target="_blank"
         >
           @rg12301
