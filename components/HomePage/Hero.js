@@ -1,47 +1,29 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
-    <div className="py-32 bg-backgroundColor-main">
+    <div className="md:py-32 py-10 bg-backgroundColor-main min-h-screen">
       <div>
-        <h1 className="flex justify-center text-center leading-loose text-6xl font-semibold">
+        <h1 className="flex  md:justify-center md:text-center text-5xl px-6 md:text-6xl font-semibold md:leading-loose leading-relaxed ">
           We are a community of <br />
           Programmers right here <br />
           at JKLU.
         </h1>
       </div>
 
-      <div className="flex justify-center my-14">
-        <form action="">
-          <label
-            for="fname"
-            className="text-2xl font-semiBold ml-4"
-          >
-            JOIN US
-          </label>
-          <br />
-
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email"
-            className="placeholder placeholder-gray-500 p-4 rounded-full w-96 ml-2 my-2 shadow-lg  "
+      <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-10">
+        <a
+          className=" mx-6 px-5 py-4 bg-blue-500 rounded-full my-2 shadow-xl "
+          href="/#domains"
+        >
+          <FontAwesomeIcon
+            icon={faArrowDown}
+            size="lg"
+            color="white"
           />
-
-          <button
-            type="submit"
-            className=" mx-6 px-5 py-4 bg-blue-500 rounded-full my-2 shadow-xl "
-          >
-            <FontAwesomeIcon
-              icon={faArrowRight}
-              size="lg"
-              color="white"
-            />
-          </button>
-        </form>
+        </a>
       </div>
     </div>
   );

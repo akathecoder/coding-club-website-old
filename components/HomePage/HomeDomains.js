@@ -3,8 +3,11 @@ import HomeDomain from "./HomeDomain";
 
 function HomeDomains() {
   return (
-    <div className="bg-backgroundColor-main pb-20">
-      <div className="h1 flex justify-center text-5xl font-normal ">
+    <div
+      id="domains"
+      className="bg-backgroundColor-main "
+    >
+      <div className="h1 mb-10 flex justify-center text-5xl font-normal ">
         Domains
       </div>
       <div className="">

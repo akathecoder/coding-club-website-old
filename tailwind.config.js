@@ -20,6 +20,9 @@ module.exports = {
           "Nunito",
         ],
       },
+      width: {
+        coverpic: "60vw",
+      },
     },
   },
   variants: {
