@@ -2,7 +2,11 @@ import React from "react";
 import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faInstagram,
+  faGithub,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
@@ -12,7 +16,29 @@ function Navbar() {
           S.P.A.R.K.S
         </h1>
         <div className="flex justify-end mx-2 md:mx-6 gap-2 md:gap-4 items-center">
-          <img
+          <a href="https://www.instagram.com/sparks_jklu/">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="lg"
+              color="black"
+            />
+          </a>
+          <a href="https://github.com/CodingClubJKLU">
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="lg"
+              color="black"
+            />
+          </a>
+          <a href="https://chat.whatsapp.com/DOPt14uV1H0EbXojJpB0Nf">
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              size="lg"
+              color="black"
+            />
+          </a>
+
+          {/* <img
             src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"
             width="32"
             height="32"
@@ -29,7 +55,7 @@ function Navbar() {
             width="32"
             height="32"
             alt="social-icon"
-          />
+          /> */}
         </div>
       </header>
     </div>
