@@ -1,5 +1,4 @@
 import Head from "next/head";
-import "../../styles/Home.module.css";
 import Layout from "../../components/Layout";
 import Hero from "../../components/domains/Hero";
 import Main from "../../components/domains/Main";
@@ -9,7 +8,9 @@ export default function AIML() {
   return (
     <Layout>
       <Head>
-        <title>SPARKS Coding Club - Domains</title>
+        <title>
+          SPARKS Coding Club - Domains
+        </title>
         <meta
           name="description"
           content="Official Website for SPARKS Coding Club"
@@ -22,7 +23,9 @@ export default function AIML() {
           image={domains[2].image}
         />
         <Main
-          technologies={domains[2].technologies}
+          technologies={
+            domains[2].technologies
+          }
           vision={domains[2].vision}
           mission={domains[2].mission}
           events={domains[2].events}

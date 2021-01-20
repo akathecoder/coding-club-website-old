@@ -1,5 +1,4 @@
 import Head from "next/head";
-import "../../styles/Home.module.css";
 import Layout from "../../components/Layout";
 import Hero from "../../components/domains/Hero";
 import Main from "../../components/domains/Main";
@@ -9,7 +8,9 @@ export default function WebDev() {
   return (
     <Layout>
       <Head>
-        <title>SPARKS Coding Club - Domains</title>
+        <title>
+          SPARKS Coding Club - Domains
+        </title>
         <meta
           name="description"
           content="Official Website for SPARKS Coding Club"
@@ -22,7 +23,9 @@ export default function WebDev() {
           image={domains[0].image}
         />
         <Main
-          technologies={domains[0].technologies}
+          technologies={
+            domains[0].technologies
+          }
           vision={domains[0].vision}
           mission={domains[0].mission}
           events={domains[0].events}
