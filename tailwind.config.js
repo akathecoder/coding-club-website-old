@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: {
-          100: "#18A0FB",
+          blue: "#00B0FF",
         },
         backgroundColor: {
           main: "#FAFAFA",
@@ -19,6 +19,9 @@ module.exports = {
           "Montserrat",
           "Nunito",
         ],
+      },
+      width: {
+        coverpic: "60vw",
       },
     },
   },

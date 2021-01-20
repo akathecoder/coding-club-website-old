@@ -1,29 +1,34 @@
-[{
-  "domain":"Web Development",
-  "image": "webdev1.svg",
-  "vision": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio tempor orci dapibus ultrices. Tellus orci ac auctor augue mauris augue neque gravida. Vitae purus faucibus ornare suspendisse sed. Eget felis eget nunc lobortis mattis aliquam faucibus. Eget nullam non nisi est. Tincidunt augue interdum velit euismod in pellentesque. ",
-  "domainLeads" : "",
-  "events": "",
-  "projects": ""
-}, {
-  "domain":"Android Development",
-  "image": "androiddev1.svg",
-  "vision": "",
-  "domainLeads" : "",
-  "events": [],
-  "projects": ""
-}, {
-  "domain":"AL/ML",
-  "image": "",
-  "vision": "",
-  "domainLeads" : "",
-  "events": [],
-  "projects": ""
-}, {
-  "domain":"Big Data Analytics",
-  "image": "",
-  "vision": "",
-  "domainLeads" : "",
-  "events": [],
-  "projects": ""
-}]
+[
+  {
+    "domain": "Web Development",
+    "image": "svg/undraw_building_websites_i78t.svg",
+    "vision": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio tempor orci dapibus ultrices. Tellus orci ac auctor augue mauris augue neque gravida. Vitae purus faucibus ornare suspendisse sed. Eget felis eget nunc lobortis mattis aliquam faucibus. Eget nullam non nisi est. Tincidunt augue interdum velit euismod in pellentesque. ",
+    "domainLeads": "",
+    "events": "",
+    "projects": ""
+  },
+  {
+    "domain": "Android Development",
+    "image": "svg/undraw_Mobile_app_p3ts.svg",
+    "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "domainLeads": "",
+    "events": [],
+    "projects": ""
+  },
+  {
+    "domain": "AI / ML",
+    "image": "svg/undraw_Artificial_intelligence_re_enpp.svg",
+    "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "domainLeads": "",
+    "events": [],
+    "projects": ""
+  },
+  {
+    "domain": "Big Data Analytics",
+    "image": "svg/undraw_design_data_khdb.svg",
+    "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "domainLeads": "",
+    "events": [],
+    "projects": ""
+  }
+]

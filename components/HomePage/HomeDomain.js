@@ -7,60 +7,21 @@ function HomeDomain({
   link,
   right,
 }) {
-  if (right) {
-    return (
-      <div className="bg-gray-200 mx-80 mt-44 p-0 flex rounded-3xl relative h-96 shadow-2xl ">
-        <div className="mx-10 my-5 align-middle self-center ml-16 ">
-          <h1 className="text-3xl font-semibold mb-8">
-            {title}
-          </h1>
-          <p className="text-lg break-words pr-24 ">
-            {description}
-          </p>
-
-          <a href={link}>
-            <button
-              type="submit"
-              className="my-6 px-10 py-4 bg-blue-500 rounded-full  shadow-xl text-white font-semibold"
-            >
-              Visit
-            </button>
-          </a>
-
-          <a href={link + "/#projects"}>
-            <button
-              type="submit"
-              className=" mx-6 my-6 px-6 py-4 bg-blue-500 rounded-full shadow-xl text-white font-semibold"
-            >
-              Projects
-            </button>
-          </a>
+  return (
+    <div className="py-14 px-6 md:px-60 md:py-16">
+      <div className="bg-white grid md:grid-cols-4 rounded-3xl shadow-2xl ">
+        <div className="flex justify-center">
+          <div className="col-span-1 relative flex justify-center left-1/4 md:-left-10 -top-10 md:-top-14 w-coverpic transform md:scale-110 ">
+            <Image
+              className="rounded-3xl "
+              src="/assets/images/web-dev-1.jpg"
+              width="350"
+              height="350"
+              objectFit="cover"
+            />
+          </div>
         </div>
-
-        <div className="transform scale-150 overflow-hidden">
-          <Image
-            className="rounded-2xl"
-            src="/assets/images/web-dev-1.jpg"
-            width="500"
-            height="500"
-            objectFit="cover"
-          />
-        </div>
-      </div>
-    );
-  } else {
-    return (
-      <div className="bg-gray-200 mx-80 mt-44 p-0 flex rounded-3xl relative h-96 shadow-2xl">
-        <div className="transform scale-150 overflow-hidden">
-          <Image
-            className="rounded-2xl"
-            src="/assets/images/web-dev-1.jpg"
-            width="500"
-            height="500"
-            objectFit="cover"
-          />
-        </div>
-        <div className="mx-10 my-5 align-middle self-center ml-28">
+        <div className="col-span-3 pb-10 md:pt-10 px-10">
           <h1 className="text-3xl font-semibold mb-8">
             {title}
           </h1>
@@ -68,26 +29,30 @@ function HomeDomain({
             {description}
           </p>
 
-          <a href={link}>
-            <button
-              type="submit"
-              className="my-6 px-10 py-4 bg-blue-500 rounded-full  shadow-xl text-white font-semibold"
-            >
-              Visit
-            </button>
-          </a>
+          <div className="flex justify-between md:justify-start">
+            <a href={link}>
+              <button
+                type="submit"
+                className="mt-6 px-10 py-4 bg-primaryColor-blue rounded-full  shadow-xl text-white font-semibold"
+              >
+                Learn More
+              </button>
+            </a>
 
-          <a href={link + "/#projects"}>
-            <button
-              type="submit"
-              className=" mx-6 my-6 px-6 py-4 bg-blue-500 rounded-full shadow-xl text-white font-semibold"
+            {/* <a
+              href={link + "/#projects"}
             >
-              Projects
-            </button>
-          </a>
+              <button
+                type="submit"
+                className="mt-6 px-6 py-4 md:ml-6 bg-blue-500 rounded-full shadow-xl text-white font-semibold"
+              >
+                Projects
+              </button>
+            </a> */}
+          </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 export default HomeDomain;
