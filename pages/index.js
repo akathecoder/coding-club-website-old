@@ -1,5 +1,4 @@
 import Head from "next/head";
-import "../styles/Home.module.css";
 import Layout from "../components/Layout";
 import Hero from "../components/HomePage/Hero";
 import HomeDomains from "../components/HomePage/HomeDomains";
