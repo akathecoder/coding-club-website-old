@@ -5,6 +5,7 @@ function HomeDomain({
   title,
   description,
   link,
+  img,
   right,
 }) {
   return (
@@ -13,11 +14,14 @@ function HomeDomain({
         <div className="flex justify-center">
           <div className="col-span-1 relative flex justify-center left-1/4 md:-left-10 -top-10 md:-top-14 w-coverpic transform md:scale-110 ">
             <Image
-              className="rounded-3xl "
-              src="/assets/images/web-dev-1.jpg"
+              className="rounded-3xl"
+              src={
+                "/assets/images/svg/" +
+                img
+              }
               width="350"
               height="350"
-              objectFit="cover"
+              // objectFit="cover"
             />
           </div>
         </div>

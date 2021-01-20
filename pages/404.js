@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function FourOhFour() {
   return (
-    <div class="flex h-screen bg-backgroundColor-main">
-      <div class="m-auto align-middle">
+    <div className="flex h-screen bg-backgroundColor-main">
+      <div className="m-auto align-middle">
         {/* <h1 className="text-2xl mb-4 align-middle">
           <span className="text-4xl font-bold align-middle">
             404
