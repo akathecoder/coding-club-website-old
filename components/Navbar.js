@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -12,9 +12,15 @@ function Navbar() {
     <div>
       <header className="bg-fixed bg-backgroundColor-main p-4 flex justify-between">
         <a href="/">
-          <h1 className="lg:text-3xl text-xl my-2 mx-4 text-gray-800 font-semibold">
+          {/* <h1 className="lg:text-3xl text-xl my-2 mx-4 text-gray-800 font-semibold">
             S.P.A.R.K.S
-          </h1>
+          </h1> */}
+          <Image
+            className="my-2 mx-4"
+            src="/assets/images/SPARKS_mini.svg"
+            width="40"
+            height="40"
+          />
         </a>
         <div className="flex justify-end mx-2 md:mx-6 gap-2 md:gap-4 items-center">
           <a
