@@ -30,6 +30,7 @@ export default function AIML() {
           mission={domains[2].mission}
           events={domains[2].events}
           projects={domains[2].projects}
+          members={domains[2].members}
         />
       </main>
     </Layout>

@@ -23,13 +23,11 @@ export default function WebDev() {
           image={domains[0].image}
         />
         <Main
-          technologies={
-            domains[0].technologies
-          }
           vision={domains[0].vision}
           mission={domains[0].mission}
           events={domains[0].events}
           projects={domains[0].projects}
+          members={domains[0].members}
         />
       </main>
     </Layout>
