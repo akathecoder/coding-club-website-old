@@ -12,7 +12,7 @@ function ProjectCard({ data }) {
 
   return (
     <div className="m-5 text-center">
-      <div className="rounded-full overflow-hidden bg-cover h-60 w-60">
+      <div className="rounded-2xl  overflow-hidden bg-cover h-60 w-60">
         <div className="transform hover:scale-110 duration-500  ">
           <a href={gh}>
             <Image

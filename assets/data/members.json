@@ -1,8 +1,17 @@
 [
   {
+    "name": "Dr. Alok Kumar",
+    "title": "Faculty Coordinator",
+    "image": "/assets/images/members/alok.jpeg",
+    "instagram": "",
+    "github": "https://github.com/dralokkumar",
+    "email": "alokkumar@jklu.edu.in",
+    "linkedin": "https://www.linkedin.com/in/alok-kumar-b8845aa2/"
+  },
+  {
     "name": "Sparsh Agarwal",
     "title": "President / Android Lead",
-    "image": "/assets/images/members/mem.jpg",
+    "image": "/assets/images/members/sparsh.jpg",
     "instagram": "https://www.instagram.com/akathecoder/",
     "github": "https://github.com/akathecoder",
     "email": "sparshagarwal@jklu.edu.in",
@@ -12,45 +21,36 @@
     "name": "Raghav Goyal",
     "title": "Web Lead",
     "image": "/assets/images/members/mem.jpg",
-    "instagram": "",
-    "github": "",
-    "email": "",
-    "linkedin": ""
+    "instagram": "https://www.instagram.com/_r.g_12301/",
+    "github": "https://github.com/rg12301",
+    "email": "raghavgoyal@jklu.edu.in",
+    "linkedin": "https://www.linkedin.com/in/12301raghavgoyal/"
   },
   {
     "name": "Saumya Patel",
     "title": "AI/ML Lead",
     "image": "/assets/images/members/mem.jpg",
-    "instagram": "",
-    "github": "",
-    "email": "",
-    "linkedin": ""
+    "instagram": "https://www.instagram.com/somi__178/",
+    "github": "https://github.com/saumyapatel17",
+    "email": "saumyapatel@jklu.edu.in",
+    "linkedin": "https://www.linkedin.com/in/saumya-patel-204a4419a/"
   },
   {
     "name": "Utkarsh Sharma",
     "title": "BDA Lead",
-    "image": "/assets/images/members/mem.jpg",
-    "instagram": "",
-    "github": "",
-    "email": "",
-    "linkedin": ""
+    "image": "/assets/images/members/utkarsh.jpeg",
+    "instagram": "https://www.instagram.com/seutkarsh/",
+    "github": "https://github.com/akathecoder",
+    "email": "utkarshsharma19@jklu.edu.in",
+    "linkedin": "https://www.linkedin.com/in/utkarsh-sharma-23498a117/"
   },
   {
-    "name": "Dr. Alok Kumar",
-    "title": "Faculty Coordinator",
-    "image": "/assets/images/members/mem.jpg",
-    "instagram": "",
-    "github": "",
-    "email": "",
-    "linkedin": ""
-  },
-  {
-    "name": "s",
-    "title": "s",
-    "image": "/assets/images/members/mem.jpg",
-    "instagram": "",
-    "github": "",
-    "email": "",
-    "linkedin": ""
+    "name": "Priya Kaushik",
+    "title": "Social Handler",
+    "image": "/assets/images/members/priya.jpeg",
+    "instagram": "https://www.instagram.com/_priya281/",
+    "github": "https://github.com/akathecoder",
+    "email": "priyakaushik@jklu.edu.in",
+    "linkedin": "https://www.linkedin.com/in/priya-kaushik-1a04501a2/"
   }
 ]
