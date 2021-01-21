@@ -4,12 +4,8 @@ import MemberList from "../membersList/MemberList";
 import Section from "./Section";
 
 export default function Main({
-  technologies,
   vision,
-  mission,
-  projects,
-  events,
-  members
+  projects
 }) {
   return (
     <div className="container lg:mx-auto lg:px-40 px-5 mt-5 py-10 align-middle justify-items-center">
@@ -21,21 +17,17 @@ export default function Main({
         </p>
       </Section>
 
-      {/* Senior Members */}
+      {/* Senior Members
       <Section>
         <Heading heading="Senior Members" />
           <MemberList members={members}/>
-      </Section>
+      </Section> */}
 
       {/* Projects in Limelight */}
       <Section>
         <Heading heading="Projects in Limelight" />
       </Section>
 
-      {/* Events */}
-      <Section>
-        <Heading heading="Events" />
-      </Section>
     </div>
   );
 }
