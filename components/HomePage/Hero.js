@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="md:py-32 py-10 bg-backgroundColor-main min-h-screen">
       <div className="z-10">
-        <h1 className="flex md:justify-center md:text-center text-5xl px-6 md:text-6xl font-semibold md:leading-loose leading-relaxed">
+        <h1 className="flex md:justify-center md:text-center text-4xl px-6 md:text-6xl font-semibold md:leading-loose leading-relaxed">
           We are a community of <br />
           Programmers right here <br />
           at JKLU.

@@ -9,7 +9,7 @@ function AboutUs() {
       <div className="h1 mb-10 flex justify-center text-5xl font-normal ">
         About Us
       </div>
-      <div className="py-16 px-6 md:px-60 md:py-16 -mt-10 text-justify md:text-center text-xl leading-relaxed ">
+      <div className="py-16 px-6 md:px-60 md:py-16 -mt-10 text-left  md:text-center text-xl leading-relaxed ">
         <p>
           With a vision to solve
           real-world problems with the

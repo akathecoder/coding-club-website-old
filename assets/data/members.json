@@ -20,7 +20,7 @@
   {
     "name": "Raghav Goyal",
     "title": "Web Lead",
-    "image": "",
+    "image": "/assets/images/members/raghav.jpg",
     "instagram": "https://www.instagram.com/_r.g_12301/",
     "github": "https://github.com/rg12301",
     "email": "raghavgoyal@jklu.edu.in",
@@ -29,7 +29,7 @@
   {
     "name": "Saumya Patel",
     "title": "AI/ML Lead",
-    "image": "",
+    "image": "/assets/images/members/saumya.jpg",
     "instagram": "https://www.instagram.com/somi__178/",
     "github": "https://github.com/saumyapatel17",
     "email": "saumyapatel@jklu.edu.in",
@@ -40,13 +40,13 @@
     "title": "BDA Lead",
     "image": "/assets/images/members/utkarsh.jpeg",
     "instagram": "https://www.instagram.com/seutkarsh/",
-    "github": "https://github.com/akathecoder",
+    "github": "https://github.com/seutkarsh",
     "email": "utkarshsharma19@jklu.edu.in",
     "linkedin": "https://www.linkedin.com/in/utkarsh-sharma-23498a117/"
   },
   {
     "name": "Priya Kaushik",
-    "title": "Social Handler",
+    "title": "Social Media Handler",
     "image": "/assets/images/members/priya.jpeg",
     "instagram": "https://www.instagram.com/_priya281/",
     "github": "",
