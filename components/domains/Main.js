@@ -14,15 +14,19 @@ export default function Main({
       {/* Our Vision */}
       <Section>
         <Heading heading="Our Vision" />
-        <p className="mt-0 mx-10 lg:px-10 pt-5 font-semibold lg:text-justify text-gray-600">
+        <p className="mt-0 mx-10 lg:px-10 pt-5 font-semibold text-center text-gray-600">
           {vision}
         </p>
       </Section>
 
-      <Section>
-        <Heading heading="Projects" />
-        <ProjectList data={projects} />
-      </Section>
+      {projects.length > 0 && (
+        <Section>
+          <Heading heading="Projects" />
+          <ProjectList
+            data={projects}
+          />
+        </Section>
+      )}
     </div>
   );
 }

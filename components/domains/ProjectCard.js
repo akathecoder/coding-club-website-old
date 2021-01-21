@@ -12,14 +12,16 @@ function ProjectCard({ data }) {
 
   return (
     <div className="m-5 text-center mx-5">
-      <div className="rounded-2xl  overflow-hidden bg-cover h-60 w-60">
-        <div className="transform hover:scale-110 duration-500  ">
+      <div className="rounded-3xl overflow-hidden bg-cover h-60 w-60">
+        <div className="transform hover:scale-110 duration-500 bg-gray-300">
           <a href={gh}>
-            <Image
-              src={image}
-              width="256"
-              height="256"
-            />
+            {image && (
+              <Image
+                src={image}
+                width="256"
+                height="256"
+              />
+            )}
           </a>
         </div>
       </div>
