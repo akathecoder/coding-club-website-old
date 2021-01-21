@@ -5,7 +5,29 @@
     "vision": "Web development is the process of building websites and applications for the internet. We teach students learn Web Development and help ",
     "domainLeads": "",
     "events": "",
-    "projects": ""
+    "projects": [
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      },
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      },
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      }
+    ]
   },
   {
     "domain": "Android Development",
@@ -13,7 +35,29 @@
     "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     "domainLeads": "",
     "events": [],
-    "projects": ""
+    "projects": [
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      },
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      },
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      }
+    ]
   },
   {
     "domain": "AI / ML",
@@ -21,7 +65,29 @@
     "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     "domainLeads": "",
     "events": [],
-    "projects": ""
+    "projects": [
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      },
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      },
+      {
+        "name": "Movieinator",
+        "developer": "Sparsh Agarwal",
+        "link": "https://www.instagram.com/akathecoder/",
+        "gh": "https://github.com/akathecoder/movieinator",
+        "image": "/assets/images/members/mem.jpg"
+      }
+    ]
   },
   {
     "domain": "Big Data Analytics",
@@ -29,6 +95,6 @@
     "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     "domainLeads": "",
     "events": [],
-    "projects": ""
+    "projects": []
   }
 ]

@@ -1,12 +1,14 @@
 import React from "react";
 import Heading from "./Heading";
-import MemberList from "../membersList/MemberList";
+import ProjectList from "./ProjectList";
 import Section from "./Section";
 
 export default function Main({
   vision,
-  projects
+  projects,
 }) {
+  // console.log(projects);
+
   return (
     <div className="container lg:mx-auto lg:px-40 px-5 mt-5 py-10 align-middle justify-items-center">
       {/* Our Vision */}
@@ -17,17 +19,10 @@ export default function Main({
         </p>
       </Section>
 
-      {/* Senior Members
       <Section>
-        <Heading heading="Senior Members" />
-          <MemberList members={members}/>
-      </Section> */}
-
-      {/* Projects in Limelight */}
-      <Section>
-        <Heading heading="Projects in Limelight" />
+        <Heading heading="Projects" />
+        <ProjectList data={projects} />
       </Section>
-
     </div>
   );
 }
