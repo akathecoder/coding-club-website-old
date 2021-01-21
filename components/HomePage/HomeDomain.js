@@ -5,23 +5,24 @@ function HomeDomain({
   title,
   description,
   link,
+  img,
   right,
 }) {
   return (
-    <div className="py-14 px-6 md:px-60 md:py-16">
-      <div className="bg-white grid md:grid-cols-4 rounded-3xl shadow-2xl ">
-        <div className="flex justify-center">
-          <div className="col-span-1 relative flex justify-center left-1/4 md:-left-10 -top-10 md:-top-14 w-coverpic transform md:scale-110 ">
-            <Image
-              className="rounded-3xl "
-              src="/assets/images/web-dev-1.jpg"
-              width="350"
-              height="350"
-              objectFit="cover"
-            />
-          </div>
+    <div className="py-16 px-6 md:px-60 md:py-16 -mt-10">
+      <div className="bg-white grid md:grid-cols-4 rounded-3xl shadow-2xl">
+        <div className="flex justify-center col-span-1 py-6 ml-10">
+          <Image
+            src={
+              "/assets/images/svg/" +
+              img
+            }
+            width="350"
+            height="350"
+            // objectFit="cover"
+          />
         </div>
-        <div className="col-span-3 pb-10 md:pt-10 px-10">
+        <div className="col-span-3 pb-10 md:pt-10 px-10 my-auto">
           <h1 className="text-3xl font-semibold mb-8">
             {title}
           </h1>
