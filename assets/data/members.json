@@ -10,7 +10,7 @@
   },
   {
     "name": "Sparsh Agarwal",
-    "title": "President / Android Lead",
+    "title": "President | Android Lead",
     "image": "/assets/images/members/sparsh.jpg",
     "instagram": "https://www.instagram.com/akathecoder/",
     "github": "https://github.com/akathecoder",
@@ -20,7 +20,7 @@
   {
     "name": "Raghav Goyal",
     "title": "Web Lead",
-    "image": "/assets/images/members/mem.jpg",
+    "image": "",
     "instagram": "https://www.instagram.com/_r.g_12301/",
     "github": "https://github.com/rg12301",
     "email": "raghavgoyal@jklu.edu.in",
@@ -29,7 +29,7 @@
   {
     "name": "Saumya Patel",
     "title": "AI/ML Lead",
-    "image": "/assets/images/members/mem.jpg",
+    "image": "",
     "instagram": "https://www.instagram.com/somi__178/",
     "github": "https://github.com/saumyapatel17",
     "email": "saumyapatel@jklu.edu.in",
@@ -49,7 +49,7 @@
     "title": "Social Handler",
     "image": "/assets/images/members/priya.jpeg",
     "instagram": "https://www.instagram.com/_priya281/",
-    "github": "https://github.com/akathecoder",
+    "github": "",
     "email": "priyakaushik@jklu.edu.in",
     "linkedin": "https://www.linkedin.com/in/priya-kaushik-1a04501a2/"
   }

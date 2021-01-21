@@ -39,13 +39,15 @@ export default function MemberBadge({
   return (
     <div className="bg-white rounded-3xl shadow-2xl py-2 px-12">
       <div className="mb-24 h-80 w-64 rounded-xl pt-10">
-        <div className="mx-auto h-48 w-48 rounded-full justify-self-center overflow-hidden">
-          <Image
-            src={image}
-            width="256"
-            height="256"
-            objectFit="cover"
-          />
+        <div className="mx-auto h-48 w-48 rounded-full justify-self-center bg-gray-300 overflow-hidden">
+          {image && (
+            <Image
+              src={image}
+              width="256"
+              height="256"
+              objectFit="cover"
+            />
+          )}
         </div>
         <div className="flex flex-col mt-5">
           <h2 className="mx-auto font-bold mt-5 align-middle justify-center">
@@ -56,30 +58,38 @@ export default function MemberBadge({
             {title}
           </h3>
         </div>
-        <div className="mx-auto mt-5 grid grid-cols-4 align-middle justify-items-center">
-          <Icon
-            icon="instagram"
-            link={instagram}
-          />
-          <Icon
-            icon="github"
-            link={github}
-          />
-          <Link
-            href={"mailto:" + email}
-          >
-            <div className="cursor-pointer">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                color="gray"
-                size="lg"
-              />
-            </div>
-          </Link>
-          <Icon
-            icon="linkedin"
-            link={linkedin}
-          />
+        <div className="mx-auto mt-5 flex justify-center gap-10  align-middle">
+          {instagram && (
+            <Icon
+              icon="instagram"
+              link={instagram}
+            />
+          )}
+          {github && (
+            <Icon
+              icon="github"
+              link={github}
+            />
+          )}
+          {email && (
+            <Link
+              href={"mailto:" + email}
+            >
+              <div className="cursor-pointer">
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  color="gray"
+                  size="lg"
+                />
+              </div>
+            </Link>
+          )}
+          {linkedin && (
+            <Icon
+              icon="linkedin"
+              link={linkedin}
+            />
+          )}
         </div>
       </div>
     </div>
