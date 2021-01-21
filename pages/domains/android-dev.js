@@ -30,6 +30,7 @@ export default function AndroidDev() {
           mission={domains[1].mission}
           events={domains[1].events}
           projects={domains[1].projects}
+          members={domains[1].members}
         />
       </main>
     </Layout>

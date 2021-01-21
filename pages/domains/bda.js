@@ -30,6 +30,8 @@ export default function BDA() {
           mission={domains[3].mission}
           events={domains[3].events}
           projects={domains[3].projects}
+          
+          members={domains[3].members}
         />
       </main>
     </Layout>
