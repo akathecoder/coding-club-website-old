@@ -2,7 +2,7 @@
   {
     "name": "Sparsh Agarwal",
     "title": "President / Android Lead",
-    "image": "",
+    "image": "/assets/images/members/mem.jpg",
     "instagram": "https://www.instagram.com/akathecoder/",
     "github": "https://github.com/akathecoder",
     "email": "sparshagarwal@jklu.edu.in",
@@ -11,7 +11,7 @@
   {
     "name": "Raghav Goyal",
     "title": "Web Lead",
-    "image": "",
+    "image": "/assets/images/members/mem.jpg",
     "instagram": "",
     "github": "",
     "email": "",
@@ -20,7 +20,7 @@
   {
     "name": "Saumya Patel",
     "title": "AI/ML Lead",
-    "image": "",
+    "image": "/assets/images/members/mem.jpg",
     "instagram": "",
     "github": "",
     "email": "",
@@ -29,7 +29,7 @@
   {
     "name": "Utkarsh Sharma",
     "title": "BDA Lead",
-    "image": "",
+    "image": "/assets/images/members/mem.jpg",
     "instagram": "",
     "github": "",
     "email": "",
@@ -38,25 +38,16 @@
   {
     "name": "Dr. Alok Kumar",
     "title": "Faculty Coordinator",
-    "image": "",
+    "image": "/assets/images/members/mem.jpg",
     "instagram": "",
     "github": "",
     "email": "",
     "linkedin": ""
   },
   {
-    "name": "",
-    "title": "",
-    "image": "",
-    "instagram": "",
-    "github": "",
-    "email": "",
-    "linkedin": ""
-  },
-  {
-    "name": "",
-    "title": "",
-    "image": "",
+    "name": "s",
+    "title": "s",
+    "image": "/assets/images/members/mem.jpg",
     "instagram": "",
     "github": "",
     "email": "",

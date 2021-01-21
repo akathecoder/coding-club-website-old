@@ -23,7 +23,7 @@ function Hero() {
         />{" "}
       </div>
 
-      <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-0 animate-bounce">
+      <div className="flex justify-center absolute w-3 mx-auto left-0 right-0 bottom-0 animate-bounce cursor-pointer">
         <Link
           className=" mx-6 px-4 py-5 bg-primaryColor-blue rounded-full my-2 shadow-xl "
           activeClass="active"

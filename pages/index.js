@@ -2,7 +2,8 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import Hero from "../components/HomePage/Hero";
 import HomeDomains from "../components/HomePage/HomeDomains";
-import HomeEvents from "../components/HomePage/HomeEvents";
+import MemberList from "../components/membersList/MemberList";
+import * as membersData from "../assets/data/members.json";
 
 export default function Home() {
   return (
@@ -21,6 +22,15 @@ export default function Home() {
         <Hero />
         <HomeDomains />
         {/* <HomeEvents /> */}
+
+        <div className="h1 mt-14 flex justify-center text-5xl font-normal ">
+          Members
+        </div>
+        <div className="pt-8 pb-16 px-6 md:px-60 md:py-16 -mt-10">
+          <MemberList
+            members={membersData}
+          />
+        </div>
       </main>
     </Layout>
   );
