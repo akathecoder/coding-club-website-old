@@ -1,7 +1,7 @@
 [
   {
     "domain": "Web Development",
-    "image": "svg/undraw_building_websites_i78t.svg",
+    "image": "/assets/images/svg/undraw_building_websites_i78t.svg",
     "vision": "Web development is the process of building websites and applications for the internet. We teach students learn Web Development and help ",
     "domainLeads": "",
     "events": "",
@@ -9,7 +9,7 @@
   },
   {
     "domain": "Android Development",
-    "image": "svg/undraw_Mobile_app_p3ts.svg",
+    "image": "/assets/images/svg/undraw_Mobile_app_p3ts.svg",
     "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     "domainLeads": "",
     "events": [],
@@ -17,7 +17,7 @@
   },
   {
     "domain": "AI / ML",
-    "image": "svg/undraw_Artificial_intelligence_re_enpp.svg",
+    "image": "/assets/images/svg/undraw_Artificial_intelligence_re_enpp.svg",
     "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     "domainLeads": "",
     "events": [],
@@ -25,7 +25,7 @@
   },
   {
     "domain": "Big Data Analytics",
-    "image": "svg/undraw_design_data_khdb.svg",
+    "image": "/assets/images/svg/undraw_design_data_khdb.svg",
     "vision": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
     "domainLeads": "",
     "events": [],
