@@ -15,7 +15,7 @@ function Hero() {
         </h1>
       </div>
 
-      <div className="flex-initial sm:absolute sm:bottom-24   sm:right-40  transform sm:-rotate-6  p-3">
+      <div className="flex-initial sm:absolute sm:bottom-24 sm:right-40 transform sm:-rotate-6 p-3 mt-10">
         <Image
           src="/assets/images/svg/undraw_code_thinking_1jeh.svg"
           height="225"
