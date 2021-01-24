@@ -19,7 +19,7 @@ function HomeDomains() {
         />
         <HomeDomain
           title="Web Development"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, qui corrupti officiis nam incidunt voluptatibus numquam recusandae vitae vero facilis?"
+          description="Websites are the backbone of this era of digitalization, where people are always connected wherever and whenever."
           link="/domains/web-dev"
           img="undraw_building_websites_i78t.svg"
           right
