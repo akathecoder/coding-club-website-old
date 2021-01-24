@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -10,18 +11,18 @@ import {
 function Navbar() {
   return (
     <div>
-      <header className="bg-fixed bg-backgroundColor-main p-4 flex justify-between">
-        <a href="/">
+      <header className="bg-fixed bg-backgroundColor-main p-4 flex justify-between ">
+        <Link href="/">
           {/* <h1 className="lg:text-3xl text-xl my-2 mx-4 text-gray-800 font-semibold">
             S.P.A.R.K.S
           </h1> */}
           <Image
-            className="my-2 mx-4"
+            className="my-2 mx-4 cursor-pointer"
             src="/assets/images/SPARKS_mini.svg"
             width="40"
             height="40"
           />
-        </a>
+        </Link>
         <div className="flex justify-end mx-2 md:mx-6 gap-2 md:gap-4 items-center">
           <a
             href="https://www.instagram.com/sparks_jklu/"

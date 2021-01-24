@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function HomeDomain({
   title,
@@ -31,14 +32,14 @@ function HomeDomain({
           </p>
 
           <div className="flex justify-between md:justify-start">
-            <a href={link}>
+            <Link href={link}>
               <button
                 type="submit"
                 className="mt-6 px-10 py-4 bg-primaryColor-blue rounded-full  shadow-xl text-white font-semibold"
               >
                 Learn More
               </button>
-            </a>
+            </Link>
 
             {/* <a
               href={link + "/#projects"}
